@@ -1,0 +1,54 @@
+{
+  "id": "t3org-dev",
+  "server_roles": [
+    "typo3_role"
+  ],
+  "type": {
+    "typo3_role": [
+      "typo3"
+    ]
+  },
+  "database_master_role": [
+    "typo3_role"
+  ],
+  "repository": "git://git.typo3.org/TYPO3v4/Distributions/Introduction.git",
+  "revision": {
+    "production": "HEAD"
+  },
+  "databases": {
+    "production": {
+      "encoding": "utf8",
+      "username": "typo3",
+      "adapter": "mysql",
+      "password": "typo3",
+      "database": "typo3_v5",
+      "host": "127.0.0.1"
+    }
+  },
+  "stages": {
+    "production": {
+      "document_root": "/var/www/typo3_v5",
+      "server_name": "introduction.v5.demo.typo3.org",
+      "server_aliases": [
+        "v5.typo3-workshop.dev"
+      ]
+    }
+  },
+  "mysql_root_password": {
+    "production": "joh316"
+  },
+  "mysql_debian_password": {
+    "production": "joh316"
+  },
+  "mysql_repl_password": {
+    "production": "joh316"
+  },
+  "owner": "www-data",
+  "group": "www-data",
+  "packages": {
+    "curl": ""
+  },
+  "pears": {
+    "phpunit/PHPUnit": ""
+  }
+}
