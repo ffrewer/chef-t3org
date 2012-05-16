@@ -1,6 +1,9 @@
 # Overview
 
-This is a repository used for the TYPO3 chef workshop.
+This is a repository used for setting up a development version of typo3.org website.
+
+For the first installation, consider 1 good hour to go through all the steps. The time will depend on the performance of your hardware
+and on the speed of the network. There will about > 500 Mb to download which includes a virtual machine and the typo3.org files.
 
 # Requirements
 

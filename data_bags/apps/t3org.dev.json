@@ -1,15 +1,15 @@
 {
   "id": "t3org-dev",
   "server_roles": [
-    "typo3_role"
+    "typo3"
   ],
   "type": {
-    "typo3_role": [
+    "typo3": [
       "typo3"
     ]
   },
   "database_master_role": [
-    "typo3_role"
+    "typo3"
   ],
   "repository": "git://git.typo3.org/TYPO3v4/Distributions/Introduction.git",
   "revision": {
@@ -18,20 +18,21 @@
   "databases": {
     "production": {
       "encoding": "utf8",
-      "username": "typo3",
+      "username": "t3orgdev",
       "adapter": "mysql",
-      "password": "typo3",
-      "database": "typo3_v5",
-      "host": "127.0.0.1"
+      "password": "t3orgdev",
+      "database": "t3orgdev",
+      "host": "localhost"
     }
   },
   "stages": {
     "production": {
-      "document_root": "/var/www/typo3_v5",
-      "server_name": "introduction.v5.demo.typo3.org",
+      "document_root": "/var/www/vhost/t3org.dev/www",
+      "server_name": "t3org.dev",
       "server_aliases": [
-        "v5.typo3-workshop.dev"
-      ]
+        "www.t3org.dev"
+      ],
+      "fqdn": "wwwxy.dkd.de"
     }
   },
   "mysql_root_password": {
