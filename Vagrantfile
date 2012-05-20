@@ -23,6 +23,7 @@ Vagrant::Config.run do |config|
     chef.add_role     "base"
     chef.add_role     "vagrant"
     chef.add_role     "typo3"
+    chef.add_role     "t3org"
   end
 
   config.vm.customize [

@@ -12,6 +12,7 @@ run_list(
 )
 
 override_attributes({
+=begin
   "typo3" => {
     "dir" => "/var/cache/typo3",
     "introduction" => {
@@ -24,6 +25,7 @@ override_attributes({
       "group" => "www-data"
     }
   },
+=end
   "mysql" => {
     "server_debian_password" => "",
     "server_root_password" => "root",

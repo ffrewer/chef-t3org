@@ -2,8 +2,18 @@
 
 This is a repository used for setting up a development version of typo3.org website.
 
-For the first installation, consider 1 good hour to go through all the steps. The time will depend on the performance of your hardware
+For the first installation, consider 1 good hour to walk through all the steps. The time will depend on the performance of your hardware
 and on the speed of the network. There will about > 500 Mb to download which includes a virtual machine and the typo3.org files.
+
+# Login in the Vagrant
+
+The most simple way to get into the Box with ssh is to use vagrant itself::
+
+  vagrant ssh
+
+# Trouble shooting
+
+It happens sometimes Vagrant can not finish the setup and remains stuck. An easy fix is to login into the Box using the GUI window and to reboot with "sudo reboot".
 
 # Requirements
 
